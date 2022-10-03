@@ -4,3 +4,19 @@
     height: 70;
   
 }
+body {
+    background: url(./img/img-gaming.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.jugar {
+    height: 90px;
+  width: 135px;
+border: 1px solid #060607c2; 
+padding: 30px; 
+background-color: #0bf1d3; 
+color: #ffffff; 
+text-decoration: none;
+text-transform: uppercase; 
+font-family: 'Helvetica', sans-serif;
+border-radius: 50px; 
+}
