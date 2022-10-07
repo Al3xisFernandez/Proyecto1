@@ -1,84 +1,11 @@
-
-#publicidad {
-    display: flex;
-    width: 50;
-    height: 70;
-}
-.font {
+.container {
     background: linear-gradient(rgb(15, 12, 12), rgba(255, 255, 255, 0.74));
     font-family: 'Press Start 2P', cursive;
-   }
-
-.jugar {
-    height: 90px;
-    width: 145px;
-    border: 1px solid #060607c2;
-    padding: 30px;
-    background-color: #0bf1d3;
-    text-decoration:none;
-    text-transform: uppercase;
-    border-radius: 50px;
-}
-.slider {
-    width: 95%;
-    margin: auto;
-    animation: cambio 20s infinite;
 }
 
-.slider ul {
-    display: flex;
-    padding: 0;
-    width: 400%
+.slide{
+    margin-top: 10px;
 }
-
-.slider li {
-    width: 100%;
-    list-style: none;  
-}
-
-.slider img {
-    width: 100%;
-}
-
-@keyframes cambio {
-    0% {
-        margin-left: 0;
-    }
-
-    15% {
-        margin-left: 0;
-    }
-
-    20% {
-        margin-left: -100%;
-    }
-
-    35% {
-        margin-left: -100%;
-    }
-
-    40% {
-        margin-left: -200%;
-    }
-
-    55% {
-        margin-left: -200%;
-    }
-
-    60% {
-        margin-left: -300%;
-    }
-
-    75% {
-        margin-left: -300%;
-    }
-
-    80% {
-        margin-left: -400%;
-    }
-
-    95% {
-        margin-left: -400%;
-    }
-
+.slide img {
+    height: 75vh;    
 }

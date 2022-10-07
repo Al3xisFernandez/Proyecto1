@@ -9,10 +9,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <title>Gamer zone</title>
 </head>
 
-<body class="font">
+<body class="container-fluid">
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -38,10 +38,6 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Numero</a></li>
               <li><a class="dropdown-item" href="#">Correo</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Instagram</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -56,44 +52,78 @@
     </div>
   </nav>
 
-  <div class="slider">
-    <ul>
-      <li>        
-        <img src="img/Elden Ring.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/call duty warzone.jpg" alt="">
-      </li>
-        <img src="img/counter strike global offensive.png" alt="">
-      </li>
-      <li>
-        <img src="img/Cyber punk.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/GHOST OF TSUSHIMA.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/metro exodus.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/star wars II.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/Fifa23.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/half-life-alyx_gvar.png" alt="">
-      </li>
-      <li>
-        <img src="img/resident evill village.png" alt="">
-      </li>
-    </ul> 
-  </div>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/call duty warzone.jpg" class="d-block w-100"  alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/counter strike global offensive.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Cyber punk.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Elden Ring.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Fifa23.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/forza harizon 5.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/GHOST OF TSUSHIMA.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/half-life-alyx_gvar.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/metro exodus.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/resident evill village.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br><br>
   <div class="jugar">
-    <a href="index.html#JUGAR">JUGAR</a>
+    <a href="index.html#JUGAR" class="btn btn-primary">JUGAR</a>
   </div>
-    
-    <article class="slider">
+  <footer class="pie-pagina">
+   <div class="grupo-1">
+    <div class="box">
+      <figure>
+        <a href="#">
+          <img src="img/Gamer zone.jpg">
+        </a>
+      </figure>
+    </div>  
+   <div class="box">
+    <h2>SOBRE NOSOTROS</h2>
+  <p>oooooooooooooooo</p>
+   </div>
+   <div class="box">
+    <h2>SEGUINOS</h2>
+    <div class="red-social">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-youtube"></a>
+    </div>
+   </div>
+  </div>
+  <div class="grupo-2">
+    <small>&copy; 2022<b></b></small>
+  </div>
+  </footer>
       <!-- JavaScript Bundle with Popper -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
