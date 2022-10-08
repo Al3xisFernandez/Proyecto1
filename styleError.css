@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    background: linear-gradient(white, rgba(0, 0, 0, 0.952));
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.boton {
+    text-decoration: none;
+    background: rgba(29, 29, 31, 0.539);
+    color: #fff;
+    border-radius: 5px;
+}
