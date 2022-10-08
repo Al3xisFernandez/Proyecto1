@@ -1,0 +1,19 @@
+section {
+    background-color:orange;
+    font-size: x-large;
+    display: flex;
+}
+.titulo h1 {
+display: block;
+text-align: center;
+}
+.titulo h2 {
+    padding-left: 40px;
+}
+.container {
+    display: flex;
+    margin: 40px;
+}
+.container img {
+    margin-left: 40px;
+}
