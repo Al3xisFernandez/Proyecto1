@@ -8,6 +8,9 @@
 .article a:hover{
     color: rgba(255, 0, 0, 0.664);
 }
+.article a {
+    width: 100px;
+}
 .box a {
     text-decoration: none;}
 
@@ -51,6 +54,9 @@ color: #fff;
 margin-bottom: 25px;
 font-size: 20px;
 }
+.pie-pagina .grupo-1 .box h2:hover {
+    color: aqua;
+}
 .pie-pagina .grupo-1 .box p {
     color: #efefef;
     margin-bottom: 10px;
@@ -93,4 +99,17 @@ font-size: 20px;
     background-color: black;
     color: white;
     padding: 0;
+    border: none;
+}
+.links{
+    display: none;
+}
+.desplegable:hover .links {
+    display: block;
+}
+.links a {
+    color: white;
+}
+.links a:hover {
+    color:aqua
 }
