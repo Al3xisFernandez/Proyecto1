@@ -45,9 +45,13 @@
 
 
 #JUGAR {
-  background-image: url(http://frt.utn.edu.ar/2017/img/01.jpg);
-  background-position: center;
+  background-image: url(img/fondoazul.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+}
 
+.publi {
+  display: flex;
+ justify-content: center;
 }

@@ -174,3 +174,10 @@ p {
     font-style: normal;
     color: whitesmoke;
 }
+
+.publi {
+    
+        display: flex;
+        justify-content: center;
+        padding-top: 4px;
+  }
