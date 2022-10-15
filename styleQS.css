@@ -1,27 +1,24 @@
 * {
-    background: linear-gradient(to bottom, rgba(245, 245, 245, 1), rgba(0, 0, 0, 0.936)); 
+    background: linear-gradient(to bottom, rgb(245, 245, 245), rgba(0, 0, 0, 0.936));
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 .titulo {
     font-family: dra, sans-serif;
-    font-size: 2vw;
-
     font-style: oblique;
-    font-size: xx-large; 
+    font-size: xx-large;
+    color: black;
 }
 h2 {
-    color: white;
+    color: rgb(0, 0, 0);
 }
-    section {
-    font-size: x-large;
+section {
     display: flex;
-    }
+}
 .titulo h1 {
-display: block;
-text-align: center;
+    display: block;
+    text-align: center;
 }
 .titulo h2 {
     padding-left: 40px;
@@ -30,24 +27,21 @@ text-align: center;
     display: flex;
 }
 .container p {
-    color: rgb(255, 255, 255);
-}
-.container img {
-width: 300px;
-height: 300px;
+    color: rgb(0, 0, 0);
+    font-size: large ;
 }
 .pie-pagina {
     width: 100%;
     background-color: black;
 }
 .pie-pagina .grupo-1 {
-width: 100%;
-max-width: 1200px;
-margin: auto;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 50px;
-padding: 45px 0px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
 }
 .pie-pagina .grupo-1 .box figure {
     width: 100%;
@@ -56,14 +50,15 @@ padding: 45px 0px;
     justify-content: center;
     align-items: center;
 }
-.pie-pagina .grupo-1 .box figure img{
+
+.pie-pagina .grupo-1 .box figure img {
     width: 250px;
     border-radius: 50px;
 }
 .pie-pagina .grupo-1 .box h2 {
-color: #fff;
-margin-bottom: 25px;
-font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 .pie-pagina .grupo-1 .box h2:hover {
     color: aqua;
@@ -82,40 +77,38 @@ font-size: 20px;
     margin-right: 10px;
     background-color: #0d2033;
     text-align: center;
-    transition:all 300ms ease;
+    transition: all 300ms ease;
 }
 .pie-pagina .grupo-1 .red-social a:hover {
     color: aqua;
 }
 .pie-pagina .grupo-2 {
-    background-color:#0a102a;
+    background-color: #0a102a;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
 }
-
 .pie-pagina .grupo-2 small {
-        font-size: 15px;
+    font-size: 15px;
 }
-@media  screen and (max-width:800px  ){
+@media screen and (max-width:800px) {
     .pie-pagina .grupo-1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
-
-        } 
-    } 
+    }
+}
 .box a {
-        text-decoration: none;}
-    
+    text-decoration: none;
+}
 .boton {
     background-color: black;
     color: white;
     padding: 0;
     border: none;
 }
-.links{
+.links {
     display: none;
     font-size: medium;
 }
@@ -127,60 +120,6 @@ font-size: 20px;
     display: block;
 }
 .links a:hover {
-    color:aqua
+    color: aqua
 }
 
-
-@font-face {
-    src: url(img/DragonFire.otf);
-    font-family: dra;
-}
-
-.tituloGamer {
-    font-family: dra, sans-serif !important;
-    justify-content: center;
-    text-align: center;
-    
-}
-
-.bootstrap-overrides {
-    font-family: dra, sans-serif !important;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-}
-
-#bootstrap-overrides {
-    color: #0d2033;
-    font-size: 5vw;
-    font-family: dra, sans-serif !important;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-#bodyoverride {
-    background-image: url("img/fondohome.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-h1 {
-    font-style: oblique;
-    color: white;
-}
-
-p {
-    font-style: normal;
-    color: whitesmoke;
-    font-size: 2vw;
-}
-
-.publi {
-    
-        display: flex;
-        justify-content: center;
-        padding-top: 4px;
-  }
